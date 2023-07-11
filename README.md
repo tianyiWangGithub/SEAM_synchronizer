@@ -3,10 +3,10 @@ SEAM is a novel message synchronization policy designed to fuse data from differ
 
 ## Before running
 You need to execute commands below before running test
-First, clone this package in your workspace, use work_space as your workspace name(这句改)
+First, clone this package in your workspace, replace work_space as your workspace name
 ```
 cd ~/work_space/src
-git clone https://github.com/tianyiWangGithub/SEAM_synchronizer(改成seam_synchronizer)
+git clone https://github.com/tianyiWangGithub/seam_synchronizer
 ```
 
 ## Build the packages
