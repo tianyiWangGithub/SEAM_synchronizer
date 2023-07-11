@@ -1,5 +1,5 @@
 # SEAM_synchronizer
-SEAM is a novel message synchronization policy designed to fuse data from different sensors in ROS2. This project integrates SEAM into the ROS2 Dashing framework and evaluates its effectiveness through a series of experiments, comparing it to traditional ROS2 synchronizers. This project compare SEAM algorithm with [ROS2 Approximate Time Policy](https://github.com/ros2/message_filters/blob/master/include/message_filters/sync_policies/approximate_time.h) in success rate and compute time with different aspects like period of messages,...XXX.
+SEAM is a novel message synchronization policy designed to fuse data from different sensors in ROS2. This project integrates SEAM into the ROS2 Dashing framework and evaluates its effectiveness through a series of experiments, comparing it to traditional ROS2 synchronizers. This project compare SEAM algorithm with [ROS2 Approximate Time Policy](https://github.com/ros2/message_filters/blob/master/include/message_filters/sync_policies/approximate_time.h) in success rate and compute time with changing parameters like number of channels, period of messages, threshold of SEAM algorithm, etc.
 
 ## Before running
 You need to execute commands below before running test
